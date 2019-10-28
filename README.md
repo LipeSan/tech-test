@@ -53,9 +53,14 @@ This project was created to serve as a reference to others interested in Webdriv
 
 # Project folders
 ** .src/data-test -> here, there are files about data test, for example login information ...
+
 ** .src/pages -> here, there are files about elements and actions on the page ...
+
 ** .src/test-api -> here, there are files about api's script ...
+
 ** .src/test-e2e -> here, there are files about e2e's script for example login, access to menu and confirm allocation...
+
 ** .src/selectors -> here, there are files about Page's elements, I usually use xPath for selector.
+
 
 
