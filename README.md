@@ -1,5 +1,6 @@
 # Tech test
 This tech test contains examples of how to create page objects and tests using [WebdriverIO 5.0](https://github.com/webdriverio/webdriverio/tree/master/packages) and [TypeScript](https://www.typescriptlang.org/). The application under test is tourdedave's "[the-internet](https://github.com/tourdedave/the-internet)" project which contains examples of hard to automate pages. The test runner is the [wdio-mocha-framework](https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-mocha-framework). 
+For API test we are using [chai](https://www.chaijs.com/plugins/chai-http/) to validation and using [supertest](https://github.com/visionmedia/supertest#readme) to access the api.
 
 This project was created to serve as a reference to others interested in WebdriverIO TypeScript tests.
 
@@ -10,10 +11,15 @@ This project was created to serve as a reference to others interested in Webdriv
 
 # How run test
 1 - you need to access the project path on cmd
+
 2 - you need to execute `npm install`
+
 3 - you need to adjust data test for execution on ./src/data-test/data-test.json.
+
 {
+
     "User":{
+    
         ... [`information for login`]
     },
     "MenuHome":{
