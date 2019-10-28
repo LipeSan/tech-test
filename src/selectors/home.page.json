@@ -1,0 +1,5 @@
+{
+    "headerLocator":"//header",
+    "btnCloseHeaderLocator":"//header/div/button",
+    "menuLocator":"//ul/div[@data-test-id='global-menu-item']"
+}

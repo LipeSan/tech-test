@@ -1,0 +1,58 @@
+{
+  "name": "tech-test",
+  "version": "1.0.0",
+  "description": "this is tech test for Assignar",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "test-api": "wdio wdio.conf.js wdio wdio.conf.js --suite api",
+    "test-e2e": "wdio wdio.conf.js wdio wdio.conf.js --suite e2e",
+    "lint": "tslint --fix src/**/*.ts",
+    "moveJsonFiles": "copyfiles -u 1 src/selectors/* src/config/* lib",
+    "build": "npm run lint && rimraf lib && npm run moveJsonFiles && tsc --outDir lib"
+  },
+  "pre-commit": [
+    "lint",
+    "build",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "webdriverio",
+    "selenium",
+    "nodejs",
+    "ts",
+    "typescript"
+  ],
+  "author": "Filipe Fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/cli": "^5.10.1",
+    "@wdio/dot-reporter": "^5.9.3",
+    "@wdio/local-runner": "^5.10.1",
+    "@wdio/mocha-framework": "^5.10.1",
+    "@wdio/selenium-standalone-service": "^5.9.3",
+    "@wdio/spec-reporter": "^5.9.3",
+    "@wdio/sync": "^5.10.1",
+    "chai": "^4.2.0",
+    "copyfiles": "^2.1.0",
+    "it-each": "^0.4.0",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.2.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/supertest": "^2.0.8",
+    "supertest": "^4.0.2"
+  }
+}

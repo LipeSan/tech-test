@@ -1,0 +1,9 @@
+{
+    "inputClientIDLocator":"//input[@name='loginId']",
+    "inputUserNameLocator":"//input[@name='username']",
+    "inputPasswordLocator":"//input[@name='password']",
+    "selectLanguageLocator":"",
+    "selectRegionLocator":"",
+    "btnLoginLocator":"//div[@class='jss5']/button[1]",
+    "linkForgotPasswordLocator":"//button[contains(text(), 'Forgot Your Password?')]"
+}

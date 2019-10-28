@@ -1,0 +1,7 @@
+{
+    "listOfAlocationsLocator":"//div[@id='scroll-area']/div/div/div/ul",
+    "headerLocator":"//header",
+    "btnConfirmLocator": "//button/span[text()='Confirm']",
+    "btnOkLocator":"//button/span[text()='Ok']",
+    "statusConfirmatedLocator": "//div[@role='button']/span[text()='Confirmed']"
+}

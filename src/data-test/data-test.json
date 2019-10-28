@@ -1,0 +1,42 @@
+{
+    "User":{
+        "ClientID":"qatechtest",
+        "UserName":"fieldworkerqa",
+        "Password":"12345678",
+        "Language":"English",
+        "Region":"Australia",
+        "Type":"dashboard"
+    },
+    "MenuHome":{
+        "MyItems": "My Items",
+        "Allocations": "Allocations",
+        "Timesheets": "Timesheets",
+        "Dockets": "Dockets",
+        "Forms": "Forms",
+        "MyProfile": "My Profile",
+        "Profile": "Profile",
+        "LogOut": "Log out"
+    },
+    "Allocation":{
+        "date":{
+            "day":"2",
+            "month":"12",
+            "year":"2019"
+        },
+        "task":"Task QA Tech Test 2 "
+    },
+    "ApiLogin": {
+        "login_id":"qatechtest",
+        "username":"qatechtest",
+        "password":"12345678",
+        "user_type":"dashboard"
+    },
+    "AllocationConfirm":{
+        "items":[
+            {
+                "id":308
+            }
+        ]
+    }
+}
+
